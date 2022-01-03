@@ -1,0 +1,6 @@
+[DESIGN]
+max-args=7
+max-locals=15
+
+[SIMILARITIES]
+min-similarity-lines=3
