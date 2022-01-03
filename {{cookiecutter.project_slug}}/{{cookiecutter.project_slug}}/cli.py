@@ -3,14 +3,14 @@
 {% if cookiecutter.command_line_interface|lower == 'fire' -%}
 import fire
 
-def help():
+def echo_version():
     print("{{ cookiecutter.project_slug }}")
     print("=" * len("{{ cookiecutter.project_slug }}"))
     print("{{ cookiecutter.project_short_description }}")
 
 def main():
     fire.Fire({
-        "help": help
+        "echo": echo_version
     })
 
 
