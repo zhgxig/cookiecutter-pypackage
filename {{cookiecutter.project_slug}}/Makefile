@@ -29,4 +29,4 @@ clean:
 	rm -rf coverage.xml .coverage
 
 run:
-	python src/cli.py
+	python src/cli.py echo
